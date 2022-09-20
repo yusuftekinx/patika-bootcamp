@@ -1,0 +1,26 @@
+.todos-status-component {
+  padding: 8px 24px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todos-list-handle {
+  display: flex;
+  gap: 3px;
+}
+.handle-button {
+  font-size: 12px;
+  padding: 3px 5px;
+  background: none;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+  color: gray;
+  transition: 0.2s all;
+}
+.handle-button:hover {
+    background-color: rgb(194, 191, 191);
+}
